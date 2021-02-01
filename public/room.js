@@ -1,8 +1,8 @@
 const socket = io("/");
 const videoGrid = document.getElementById("video-grid");
 const myPeer = new Peer(undefined, {
-  host: "",
-  port: "",
+  host: "miramiraaa.pagekite.me",
+  port: "80",
 });
 const myVideo = document.createElement("video");
 myVideo.muted = true;
